@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+/* body {
+  background-color: rgb(255, 123, 0);
+} */
+.container {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  background-color: rgb(255, 100, 0);
+}
+/* header */
+.header {
+  background-color: black;
+  margin: 0 5% 0 5%;
+  display: inline-block;
+  width: 90%;
+  font-family: fantasy;
+}
+
+.logo-part {
+  float: left;
+  width: 15%;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.logo-part:hover {
+  background-color: orange;
+}
+.manu-part {
+  float: left;
+  width: 70%;
+  text-align: center;
+  font-size: 14pt;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+.manu-part a:hover {
+  background-color: aqua;
+}
+li {
+  display: inline-block;
+}
+li a:hover:not(.active) {
+  background-color: orange;
+}
+.active {
+  background-color: #4caf50;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  padding-top: 20px;
+}
+.search-part button {
+  width: 15%;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  margin: auto;
+  background-color: black;
+  cursor: pointer;
+}
+.search-part button:hover {
+  background-color: orange;
+}
+/* article*/
+#container .article {
+  background: url(../img/dance.jpg) center;
+  background-size: cover;
+  margin: 0 5% 0 5%;
+  padding: 40px;
+  background-color: rgb(255, 100, 0);
+}
+.pragraph {
+  box-sizing: border-box;
+  width: 80%;
+}
+.article h1 {
+  font-size: 48pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article .pragraph p {
+  font-size: 14pt;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-size: 14pt;
+  color: white;
+  background-color: rgb(255, 100, 0);
+  cursor: pointer;
+}
+
+.article button:hover {
+  background-color: rgb(194, 87, 0);
+  transition: 0.5s;
+}
+/* advertise */
+.advertise {
+  background-color: rgb(255, 102, 0);
+  margin: 0 5% 0 5%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.advertise .content-title {
+  text-align: center;
+  width: 80%;
+  padding: 30px 0 30px;
+  margin: auto;
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+  background-color: rgb(255, 100, 0);
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.part-1 {
+  box-sizing: border-box;
+  width: 25%;
+  margin: 4%;
+  float: left;
+  color: white;
+  text-align: center;
+  background-color: rgb(112, 112, 112);
+}
+.part-2 {
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 4%;
+  background-color: rgb(112, 112, 112);
+}
+.part-3 {
+  box-sizing: border-box;
+  width: 25%;
+  color: white;
+  text-align: center;
+  margin: 4%;
+  float: left;
+  background-color: rgb(112, 112, 112);
+}
+.advertise p {
+  padding: 10px;
+}
+/* cirtificate-box */
+.cirtificate-box {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(92, 92, 92);
+  text-align: center;
+  float: left;
+  padding: 10%;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.cirtificate-box .c-row {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 4%;
+  padding-top: 10px;
+  display: inline-block;
+  color: black;
+  background-color: rgb(255, 100, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+
+  color: white;
+}
+.cirtificate-box button {
+  margin-top: 20px;
+  font-size: 12pt;
+  padding: 3px 15%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+.cirtificate-box button:hover {
+  background-color: rgb(194, 87, 0);
+  transition: 0.5s;
+}
+
+/* four-set */
+.four-set {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: white;
+  font-size: 14pt;
+  background-color: rgb(255, 100, 0);
+  float: left;
+  box-sizing: border-box;
+}
+.four-set .img1 {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  color: white;
+}
+.four-set .text1 {
+  box-sizing: border-box;
+  width: 50%;
+  margin-top: 5%;
+  float: left;
+  color: white;
+  padding: 0% 2% 0 2%;
+  text-align: center;
+}
+
+.four-set .text1 h1 {
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.four-set button {
+  margin-top: 20px;
+  font-size: 12pt;
+  padding: 3px 15%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+.four-set button:hover {
+  background-color: rgb(194, 87, 0);
+  transition: 0.5s;
+}
+/* fourset2 */
+.four-set2 {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: white;
+  font-size: 14pt;
+  background-color: rgb(255, 100, 0);
+  float: left;
+  box-sizing: border-box;
+}
+.four-set2 .img2 {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  color: white;
+}
+.four-set2 .text2 {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0% 2% 0 2%;
+  float: left;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.four-set2 .text2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+}
+.img2 img {
+  box-sizing: border-box;
+  width: 100%;
+  float: right;
+  color: white;
+}
+.four-set2 button {
+  margin-top: 20px;
+  font-size: 12pt;
+  padding: 3px 15%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+.four-set2 button:hover {
+  background-color: rgb(194, 87, 0);
+  transition: 0.5s;
+}
+/* static-box */
+.staticts-box {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  text-align: center;
+  float: left;
+  padding: 3%;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.staticts-box .c-row1 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
+.staticts-box .c-row2 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
+.staticts-box .c-row3 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
+/* simon part */
+.simon {
+  display: inline-block;
+  width: 90%;
+  padding: 10%;
+  margin: 0 5%;
+  text-align: center;
+  color: white;
+  background-image: url(../img/part3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* SUBSCRIBE */
+.subscribe {
+  display: inline-block;
+  width: 90%;
+  margin: 0 5%;
+  text-align: center;
+  color: white;
+  padding: 10%;
+  background-color: rgb(255, 100, 0);
+}
+form {
+  margin-top: 5%;
+}
+form input {
+  display: inline-flex;
+  height: 30px;
+}
+form .submit {
+  display: inline-flex;
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  cursor: pointer;
+}
+/* footer */
+.footer {
+  background-color: rgb(58, 58, 58);
+  margin: 0 5%;
+}
+.footer .c-row1 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
+.footer .c-row2 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
+.footer .c-row3 {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  margin: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+}
